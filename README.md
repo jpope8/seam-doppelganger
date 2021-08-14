@@ -88,15 +88,15 @@ To get the code and process one image.
 <br>
 
 > **[?]**
-> Please provide your screenshots here.
+> Example of an image where seam doppelganger replaces seams of the orginal images and then restores. A random image with the same number of pixels replaced is also shown.
 
-|                          Original Image                               |                       Seam Dopplegange Image                           |
+|                          Original Image                               |                            Replaced Image                              |
 | :-------------------------------------------------------------------: | :--------------------------------------------------------------------: |
-| <img src="docs/images/jacamar.jpg" title="Original" width="75%"> | <img src="docs/images/jacamar_seam.png" title="Seam Doppelgange" width="75%"> |
+| <img src="docs/images/jacamar.jpg" title="Original" width="75%">      | <img src="docs/images/jacamar_seam.png" title="Replaced" width="75%">  |
 
 |                          Restored Image                               |                             Random Image                               |
 | :-------------------------------------------------------------------: | :--------------------------------------------------------------------: |
-| <img src="docs/images/jacamar_unseam.jpg" title="Original" width="75%"> | <img src="docs/images/jacamar_rand.png" title="Seam Doppelgange" width="75%"> |
+| <img src="docs/images/jacamar_unseam.png" title="Restored" width="75%"> | <img src="docs/images/jacamar_rand.png" title="Random" width="75%"> |
 
 </details>
 
