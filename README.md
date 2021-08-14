@@ -50,9 +50,9 @@ Seam Carving for Image Classification Privacy
 
 Welcome to the seam-doppelganger wiki!  This page gives an overview of an approach for making an image harder to classify using machine learning techniques using seam carving while remaining human recognisable.  The overview briefly explains seam carving and then the modified approach termed seam doppelganger.<br>
 
-Seam carving [[2]] is an image compression technique that finds a contiguous sequence of pixels (from top to bottom or left to right), termed a _seam_, to remove from an image.  By removing just the seam, the dimension of the image is simply decreased by one.  There can be several approaches to finding a seam, however, typically the seam that is considered the most redundant (i.e. provides the least information) is removed.  The process can be repeated multiple times, both horizontally and vertically, resulting in a reduced image that retains most of the information, because by design, less informative pixels have been removed.  Seam carving is also termed _content-aware image resizing_ as it attempts to automatically find important objects in the image and retain them during resizing.<br>
+Seam carving [2] is an image compression technique that finds a contiguous sequence of pixels (from top to bottom or left to right), termed a _seam_, to remove from an image.  By removing just the seam, the dimension of the image is simply decreased by one.  There can be several approaches to finding a seam, however, typically the seam that is considered the most redundant (i.e. provides the least information) is removed.  The process can be repeated multiple times, both horizontally and vertically, resulting in a reduced image that retains most of the information because, by design, less informative pixels have been removed.  Seam carving is also termed _content-aware image resizing_ as it attempts to automatically find important objects in the image and retain them during resizing.<br>
 
-Seam doppelganger [[1]] modifies seam carving by instead replacing the seam with the goal of making it harder to classify the image using machine learning (e.g. convolutional neural networks).  Typically, the replacing seam has a pattern unrelated to the image and it is desirable that the original seam can be approximated using the replacing seam.  This would allow the original image to be roughly restored.  As more seams are replaced, the image size remains the same but the image becomes harder to recognise.  Ideally machine learning classifiers fail before humans recognition fails.<br>
+Seam doppelganger [1] modifies seam carving by instead replacing the seam with the goal of making it harder to classify the image using machine learning (e.g. convolutional neural networks).  Typically, the replacing seam has a pattern unrelated to the image and it is desirable that the original seam can be approximated using the replacing seam.  This would allow the original image to be roughly restored.  As more seams are replaced, the image size remains the same but the image becomes harder to recognise.  Ideally machine learning classifiers fail before humans recognition fails.<br>
 
 * ___Note:___ The images used in the paper are from Imagenet which can be accessedd [here](https://www.image-net.org/).<br>
 
@@ -69,10 +69,8 @@ To get the code and process one image.
 > - Install dependencies
 > Any version of the Java Development Kit (JDK) later than 1.8
 > Any version of Python3
-> ```bash
-> pip install -r requirements.txt
-> ```
-> - An example seam doppelganger for specified percentage replacement
+>
+> - Run seam doppelganger on an image for specified percentage replacement
 > ```bash
 > java ReplaceDemo ../images/jacamar.jpg 0.25
 > ls ../images
@@ -87,7 +85,6 @@ To get the code and process one image.
 <summary>Screenshots</summary>
 <br>
 
-> **[?]**
 > Example of an image where seam doppelganger replaces seams of the orginal images and then restores. A random image with the same number of pixels replaced is also shown.
 
 |                          Original Image                               |                            Replaced Image                              |
