@@ -1,4 +1,54 @@
-# Seam Carving for Image Classification Privacy
+<h1 align="center">
+  <a href="https://github.com/jpope8/seam-doppelganger">
+    <!-- Please provide path to your logo here -->
+    <img src="docs/images/logo.svg" alt="Logo" width="100" height="100">
+  </a>
+</h1>
+
+<div align="center">
+  seam-doppelganger
+  <br />
+  <a href="#about"><strong>Explore the screenshots »</strong></a>
+  <br />
+  <br />
+  <a href="https://github.com/jpope8/seam-doppelganger/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
+  ·
+  <a href="https://github.com/jpope8/seam-doppelganger/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
+  .
+  <a href="https://github.com/jpope8/seam-doppelganger/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+">Ask a Question</a>
+</div>
+
+<div align="center">
+<br />
+
+[![license](https://img.shields.io/github/license/jpope8/seam-doppelganger.svg?style=flat-square)](LICENSE)
+
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/jpope8/seam-doppelganger/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+[![code with hearth by jpope8](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-jpope8-ff1414.svg?style=flat-square)](https://github.com/jpope8)
+
+</div>
+
+<details open="open">
+<summary>Table of Contents</summary>
+
+- [About](#about)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
+- [Support](#support)
+- [Project assistance](#project-assistance)
+- [Contributing](#contributing)
+- [Authors & contributors](#authors--contributors)
+- [Security](#security)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+</details>
+
+---
 
 ![cover](./images/jacamar.jpg)
 ## Contents
@@ -80,4 +130,12 @@
 > - [6] Gao Huang, Zhuang Liu, Laurens van der Maaten, Kilian Q. Weinberger. [Densely Connected Convolutional Networks](https://arxiv.org/abs/1608.06993). arxiv:1608.06993v5.
 > - [7] Deng, J. et al., 2009. [Imagenet: A large-scale hierarchical image database. In 2009 IEEE conference on computer vision and pattern recognition](http://image-net.org/). pp. 248–255.
 > - [8] Ramprasaath R. Selvaraju, Michael Cogswell, Abhishek Das, Ramakrishna Vedantam, Devi Parikh, Dhruv Batra. [Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization](https://arxiv.org/abs/1610.02391). arXiv:1610.02391v4.
+
+
+
+## License
+
+This project is licensed under the **Apache Software License 2.0**.
+
+See [LICENSE](LICENSE) for more information.
 
