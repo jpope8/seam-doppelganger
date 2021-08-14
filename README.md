@@ -1,6 +1,6 @@
 # Seam Carving for Image Classification Privacy
 
-![cover](./assets/cover.png)
+![cover](./images/jacamar.jpg)
 ## Contents
 - [Introduction](#introduction)
 - [Overview](#overview)
