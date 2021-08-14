@@ -94,18 +94,18 @@ This work was initially presented at ICPRAM 2021 [[1]](https://www.scitepress.or
 
 Please cite the following paper.
 
-@conference{icpram21,
-author={James Pope. and Mark Terwilliger.},
-title={Seam Carving for Image Classification Privacy},
-booktitle={Proceedings of the 10th International Conference on Pattern Recognition Applications and Methods - ICPRAM,},
-year={2021},
-pages={268-274},
-publisher={SciTePress},
-organization={INSTICC},
-doi={10.5220/0010249702680274},
-isbn={978-989-758-486-2},
-issn={2184-4313},
-}
+    @conference{icpram21,
+      author={James Pope. and Mark Terwilliger.},
+      title={Seam Carving for Image Classification Privacy},
+      booktitle={Proceedings of the 10th International Conference on Pattern Recognition Applications and Methods - ICPRAM,},
+      year={2021},
+      pages={268-274},
+      publisher={SciTePress},
+      organization={INSTICC},
+      doi={10.5220/0010249702680274},
+      isbn={978-989-758-486-2},
+      issn={2184-4313},
+    }
 
 ## References
 > - [1] David L. Smith, John-Paul Grenier, Catherine Batte, and Bradley Spieler. [A Characteristic Chest Radiographic Pattern in the Setting of the COVID-19 Pandemic](https://pubs.rsna.org/doi/10.1148/ryct.2020200280). Radiology: Cardiothoracic Imaging 2020 2:5.
