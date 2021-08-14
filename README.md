@@ -1,4 +1,4 @@
-# Classification and Gradient-based Localization of Chest Radiographs
+# Seam Carving for Image Classification Privacy
 
 ![cover](./assets/cover.png)
 ## Contents
