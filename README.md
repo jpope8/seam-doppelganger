@@ -8,7 +8,7 @@
 <div align="center">
   Seam Doppelganger
   <br />
-  <a href="#basic-usage"><strong>Usage »</strong></a>
+  <a href="#basic-usage"><strong>Usage</strong></a> | <a href="#citing"><strong>Citing</strong></a>
   <br />
   <!--
   <br />
@@ -33,11 +33,8 @@
 
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Basic Usage](#basic-usage)
+  - [Basic Usage](#basic-usage)
 - [Advanced Usage](#advanced-usage)
-- [Acknowledgements](#acknowledgements)
 - [References](#references)
 - [License](#license)
 
@@ -46,15 +43,13 @@
 
 
 ## Introduction
-Seam Carving for Image Classification Privacy
-
-Welcome to the seam-doppelganger wiki!  This page gives an overview of an approach for making an image harder to classify using machine learning techniques using seam carving while remaining human recognisable.  The overview briefly explains seam carving and then the modified approach termed seam doppelganger.<br>
+Welcome to seam doppelganger, image classification privacy using seam carving.  This page gives an overview of an approach for making an image harder to classify using machine learning techniques using seam carving while remaining human recognisable.<br>
 
 Seam carving [2] is an image compression technique that finds a contiguous sequence of pixels (from top to bottom or left to right), termed a _seam_, to remove from an image.  By removing just the seam, the dimension of the image is simply decreased by one.  There can be several approaches to finding a seam, however, typically the seam that is considered the most redundant (i.e. provides the least information) is removed.  The process can be repeated multiple times, both horizontally and vertically, resulting in a reduced image that retains most of the information because, by design, less informative pixels have been removed.  Seam carving is also termed _content-aware image resizing_ as it attempts to automatically find important objects in the image and retain them during resizing.<br>
 
 Seam doppelganger [1] modifies seam carving by instead replacing the seam with the goal of making it harder to classify the image using machine learning (e.g. convolutional neural networks).  Typically, the replacing seam has a pattern unrelated to the image and it is desirable that the original seam can be approximated using the replacing seam.  This would allow the original image to be roughly restored.  As more seams are replaced, the image size remains the same but the image becomes harder to recognise.  Ideally machine learning classifiers fail before humans recognition fails.<br>
 
-* ___Note:___ The images used in the paper are from Imagenet which can be accessedd [here](https://www.image-net.org/).<br>
+* ___Note:___ The images used in the seam doppelganger paper are from Imagenet which can be accessed [here](https://www.image-net.org/).<br>
 
 
 ## Basic-Usage
@@ -100,7 +95,7 @@ To get the code and process one image.
 
 ## Advanced-Usage
 
-To process multiple images, follow the basic usage and then follw these steps
+To process multiple images, follow the basic usage and then follow these steps
 
 > - Create directories under images
 > ```bash
@@ -142,7 +137,7 @@ To process multiple images, follow the basic usage and then follw these steps
 
 ## Citing
 
-Please cite the following paper.
+Regarding seam doppelganger, please cite the following.
 
     @conference{icpram21,
       author={James Pope. and Mark Terwilliger.},
